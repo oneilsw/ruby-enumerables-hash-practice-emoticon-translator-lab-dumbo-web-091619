@@ -29,6 +29,9 @@ def get_english_meaning(file,emoticon)
   meaning = load_library(file)
   success = meaning[:get_meaning][emoticon]
   if !success
-    ""
+    "Sorry, that emoticon was not found"
+  else 
+    success
+  end 
   #binding.pry 
 end
