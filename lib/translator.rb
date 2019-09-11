@@ -17,7 +17,8 @@ end
 
 def get_japanese_emoticon(file,emoticon)
   translation =load_library(file)
-  translation[:get_emoticon][emoticon]
+  success = translation[:get_emoticon][emoticon]
+  if !emoticon
   #binding.pry 
   
 end
