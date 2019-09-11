@@ -20,9 +20,9 @@ def get_japanese_emoticon(file,emoticon)
   success = translation[:get_emoticon][emoticon]
   if !success
     "Sorry, that emoticon was not found"
-  end 
-  #binding.pry 
+  else 
   success
+  end 
 end
 
 def get_english_meaning(file,emoticon)
