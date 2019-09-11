@@ -18,7 +18,8 @@ end
 def get_japanese_emoticon(file,emoticon)
   translation =load_library(file)
   translation[:get_emoticon][emoticon]
-  binding.pry 
+  #binding.pry 
+  
 end
 
 def get_english_meaning(file,emoticon)
