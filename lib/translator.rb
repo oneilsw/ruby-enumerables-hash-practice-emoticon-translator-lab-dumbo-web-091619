@@ -27,4 +27,5 @@ end
 
 def get_english_meaning(file,emoticon)
   load_library(file)
+  
 end
