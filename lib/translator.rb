@@ -27,5 +27,6 @@ end
 
 def get_english_meaning(file,emoticon)
   meaning = load_library(file)
+  meaning[:get_meaning][emoticon]
   binding.pry 
 end
