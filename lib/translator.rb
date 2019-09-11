@@ -13,7 +13,7 @@ def load_library(file)
     new_hash[:get_emoticon][symbols[0]]= symbols[1]
   end 
   new_hash 
-end  
+end   
 
 def get_japanese_emoticon(file,emoticon)
   translation =load_library(file)
